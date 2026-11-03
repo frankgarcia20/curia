@@ -1446,3 +1446,20 @@ ul { list-style: none; }
     .nav-contenido { padding: 0 1rem; }
     .contenedor { padding: 0 1rem; }
 }
+
+.video-marco {
+    width: 100%;
+    position: relative;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: #000;
+}
+
+.video-marco iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
